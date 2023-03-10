@@ -1,0 +1,36 @@
+body {
+    color: #fefee3;
+    background-color: #4c956c;
+}
+
+#navlist {
+    display: flex;
+    
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.nav-card {
+    
+    width: 135px;
+    height: 24px;
+    margin: 2px;
+}
+
+a:link {
+    color: #fefee3; 
+}
+
+a:hover {
+    font-size: 18px;
+}
+
+a:visited {
+    color: #fefee3;
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        background-color: lightblue;
+    }
+}
