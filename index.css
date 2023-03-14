@@ -34,3 +34,23 @@ a:visited {
         background-color: lightblue;
     }
 }
+
+#welcome-section {
+    display: flex;
+    justify-content: center;
+}
+
+#profile-pic {
+    display: flex;
+    justify-content: center;
+}
+
+.Project-section {
+    display: flex;
+    justify-content: center;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-evenly;
+}
